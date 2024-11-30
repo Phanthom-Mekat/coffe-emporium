@@ -15,7 +15,7 @@ const Register = () => {
             const user=result.user;
             const data =user.metadata.creationTime
             const newUser = { name, email, data };        
-            fetch('http://localhost:5000/users',{
+            fetch('https://coffe-backend.vercel.app/users',{
                 method: "POST",
                 headers:{
                     "content-type":"application/json"
