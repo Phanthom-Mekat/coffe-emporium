@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
@@ -7,8 +8,7 @@ const CoffeCard = ({ coffee, coffees, setCoffees }) => {
         chef,
         supplier,
         taste,
-        category,
-        details,
+        
         photo,
     } = coffee;
 
